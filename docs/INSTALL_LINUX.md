@@ -1,19 +1,18 @@
-## Installation for Linux
-Sailor is compatible with a variety of operating systems and webservers. On this example, we will use Ubuntu and Apache 2.4.
+## Instalación en Linux
+Sailor es compatible con una variedad de sistemas operativos y servidores web. En este ejemplo, utilizaremos Ubuntu y Apache 2.4.
 
-### Installing Lua
+### Instalando Lua
 
-If you don't have it already, install Lua. Sailor is compatible with both 5.1 and 5.2.
-
+Si aún no lo tienes, instala Lua. Sailor es compatible con las versiones 5.1 y 5.2 
     sudo apt-get install lua5.1
 
-### Installing Apache 2.4
+### Instalando Apache 2.4
 
-On Ubuntu 13.10 and above, use the following command to install Apache 2.4.x:
+En Ubuntu 13.10 y superiores, utiliza el siguiente comando para instalar Apache 2.4.x:
 
     sudo apt-get install apache2
 
-Ubuntu 13.04 and below have Apache 2.2 as default, but you can't use Lua scripts on it. It is recommended that you use the most recent version of Apache you can. You can follow the instructions at http://httpd.apache.org. If that sounds a bit too complicated, you can get Apache 2.4.12 adding the following repository and then installing it via apt-get:
+Para Ubuntu 13.04 e inferiores tienes Apache 2.2 instalado por defecto, pero no puedes utilizar los scripts de Lua. Se recomienda que utilices la versión más reciente de Apache que puedas. Puedes seguir las instrucciones de instalación en http://httpd.apache.org. Si esto te suena un poco complicado, puedes obtener Apache 2.4.12 añadiendo añadiendo el siguiente repositorio e instalandolo via apt-get:
 
     sudo apt-add-repository ppa:ondrej/apache2
     sudo apt-get update
